@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+
+#bioPage {
+    text-align:center;
+}
+
+#bio {
+    display: inline-block;
+}
