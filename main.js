@@ -28,8 +28,8 @@ const createProjectCards = (projectsArr) => {
               <img src=${project.screenshot}/>
               <h3>${project.description}</h3>
               <h3>${project.technologiesUsed}</h3>
-              <h4>${project.url}
-              <h4>${project.githubUrl}</h4>
+              <a href=${project.url}>Project</a>
+              <a href=${project.githubUrl}>GitHub</a>
           </div>
       `
       const availableProjectCards = []
