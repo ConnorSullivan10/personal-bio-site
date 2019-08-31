@@ -11,3 +11,34 @@ const projects = [
     githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
   }
 ]
+
+const printToDom = (toPrint, divId) => {
+  document.getElementById(divId).innerHTML = toPrint;
+};
+
+const createProjectCards = (projectsArr) => {
+  let domString = ''
+  for (let i = 0; i < projectsArr.length; i++) {
+      const project = projectsArr[i]
+      domString += `
+          <div class="projects-card">
+              <h2>${projects.title}</h2>
+              <img src=${projects.screenshot}/>
+              <h3>${projects.description}</h3>
+              <h3>${projects.technologiesUsed}</h3>
+              <h4>${projects.url}
+              <h4>${projects.githubUrl}</h4>
+          </div>
+      `
+      const availableProjectCards = []
+              for (let i = 0; i < projects.length; i ++) {
+                  const project = projects[i]
+                  if (project.available === true) {
+                      availableProjectCards.push(project)
+                  }
+  
+    }
+  printToDom(domString, 'projectsPage')
+};
+
+createProjectCards(projects);
