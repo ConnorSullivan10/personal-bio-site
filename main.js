@@ -3,7 +3,7 @@ console.log('Portfolio, here we come!');
 const projects = [
     {
     title: "Cool Project", 
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+    screenshot: "https://imgflip.com/s/meme/Cool-Obama.jpg", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true,
@@ -16,18 +16,20 @@ const printToDom = (toPrint, divId) => {
   document.getElementById(divId).innerHTML = toPrint;
 };
 
+
+
 const createProjectCards = (projectsArr) => {
   let domString = ''
   for (let i = 0; i < projectsArr.length; i++) {
       const project = projectsArr[i]
       domString += `
           <div class="projects-card">
-              <h2>${projects.title}</h2>
-              <img src=${projects.screenshot}/>
-              <h3>${projects.description}</h3>
-              <h3>${projects.technologiesUsed}</h3>
-              <h4>${projects.url}
-              <h4>${projects.githubUrl}</h4>
+              <h2>${project.title}</h2>
+              <img src=${project.screenshot}/>
+              <h3>${project.description}</h3>
+              <h3>${project.technologiesUsed}</h3>
+              <h4>${project.url}
+              <h4>${project.githubUrl}</h4>
           </div>
       `
       const availableProjectCards = []
