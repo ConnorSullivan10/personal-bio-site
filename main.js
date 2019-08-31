@@ -39,6 +39,7 @@ const createProjectCards = (projectsArr) => {
   
     }
   printToDom(domString, 'projectsPage')
+}
 };
 
 createProjectCards(projects);
