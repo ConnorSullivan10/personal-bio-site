@@ -44,4 +44,7 @@ const createProjectCards = (projectsArr) => {
 }
 };
 
-createProjectCards(projects);
+const init = () => {
+  createProjectCards(projects)};
+
+  init();
