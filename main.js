@@ -49,20 +49,29 @@ const init = () => {
 
   init();
 
-  const buttonFilter = () => {
-  document.getElementsByTagName("button").addEventListener("click", (event) => {
-    if (event.target.id === "navToBio") {
-    technologiesPage.setAttribute('style', 'display:none');
-    projectsPage.setAttribute('style', 'display:none');
-  } else if (event.target.id === "navToTechnologies") {
-    bioPage.setAttribute('style', 'display:none');
-    projectsPage.setAttribute('style', 'display:none');
-  } else (event.target.id === "navToProjects") {
-    technologiesPage.setAttribute('style', 'display:none');
-    bioPage.setAttribute('style', 'display:none');
-  } 
-});
-}
+  const eventButtons = () => {
+    const buttons = document.getElementsByTagName("button");
+    for (i=0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', (event) => {
+        const buttonType = event.target.id;
+        event.preventDefault();
+        if (buttonType === "navToBio") {
+          technologiesPage.setAttribute('style', 'display:none');
+          projectsPage.setAttribute('style', 'display:none');
+        } else if (buttonType === "navToTechnologies") {
+          bioPage.setAttribute('style', 'display:none');
+          projectsPage.setAttribute('style', 'display:none');
+        } else (buttonType === "navToProjects") {
+          technologiesPage.setAttribute('style', 'display:none');
+          bioPage.setAttribute('style', 'display:none');
+          createProjectCards(projects);
+        } 
+      })
+  }
+};
+
+window.addEventListener('click', eventButtons);
+
  /* let bioButton = document.getElementById("navToBio");
   let technologiesButton = document.getElementById("navToTechnologies");
   let projectsButton = document.getElementById("navToProjects");
