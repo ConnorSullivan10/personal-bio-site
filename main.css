@@ -31,3 +31,6 @@ body {
     width: 200px;
   }
   
+  #technologiesPage {
+    display: none;
+  }
