@@ -47,7 +47,6 @@ const createProjectCards = (projectsArr) => {
 const init = () => {
   createProjectCards(projects)};
 
-  init();
 
   const eventButtons = () => {
     const buttons = document.getElementsByTagName("button");
@@ -58,12 +57,15 @@ const init = () => {
         if (buttonType === "navToBio") {
           technologiesPage.setAttribute('style', 'display:none');
           projectsPage.setAttribute('style', 'display:none');
+          bioPage.setAttribute('style', 'display:block')
         } else if (buttonType === "navToTechnologies") {
           bioPage.setAttribute('style', 'display:none');
           projectsPage.setAttribute('style', 'display:none');
-        } else (buttonType === "navToProjects") {
+          technologiesPage.setAttribute('style', 'display:block')
+        } else if (buttonType === "navToProjects") {
           technologiesPage.setAttribute('style', 'display:none');
           bioPage.setAttribute('style', 'display:none');
+          projectsPage.setAttribute('style', 'display:block')
           createProjectCards(projects);
         } 
       })
