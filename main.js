@@ -47,7 +47,6 @@ const createProjectCards = (projectsArr) => {
 const init = () => {
   createProjectCards(projects)};
 
-
   const eventButtons = () => {
     const buttons = document.getElementsByTagName("button");
     for (i=0; i < buttons.length; i++) {
