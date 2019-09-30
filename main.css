@@ -1,5 +1,7 @@
 body {
     background-color: lightblue;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #bioPage {
@@ -34,3 +36,4 @@ body {
   #technologiesPage {
     display: none;
   }
+
