@@ -5,7 +5,7 @@ console.error('hi');
 
 const projects = [
   {
-    title: 'Cool Project', 
+    title: 'Cool Project',
     screenshot: 'https://imgflip.com/s/meme/Cool-Obama.jpg', 
     description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
@@ -68,7 +68,7 @@ const eventButtons = () => {
         projectsPage.setAttribute('style', 'display:block')
         createProjectCards(projects);
       } 
-      })
+    });
   }
 };
 init();
