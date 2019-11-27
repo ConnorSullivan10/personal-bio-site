@@ -2,7 +2,7 @@
   "project1" : {
     "title": "Solar System",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/solar-system/master/screenshots/solarSystemHoverFuncScreenshot.PNG",
-    "description": "A good project description includes 'the what', 'the why', and 'the how'.",
+    "description": "Use this application to search for and print educational cards detailing each of the planets in our Solar System.",
     "technologiesUsed": "HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
     "available": true,
     "url": "https://solar-system-63bf6.firebaseapp.com/",
