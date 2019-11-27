@@ -5,25 +5,34 @@
     "description": "A good project description includes 'the what', 'the why', and 'the how'.",
     "technologiesUsed": "HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
     "available": true,
-    "url": "",
+    "url": "https://solar-system-63bf6.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/solar-system"
   },
   "project2" : {
     "title": "Sandwich Maker",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichmaker2.PNG",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichPreview1.PNG",
     "description": "Use this application to select sandwich ingredients and get a final cost for a super-awesome custom sandwich creation. Simply click the checkboxes for the ingredients that you'd like in your custom sandwich, and once you're finished selecting options, click the 'Build Your Custom Sandwich' button to see your total for your custom sandwich creation!",
-    "technologiesUsed": "HTML, CSS & Javascript",
+    "technologiesUsed": "HTML, CSS, Javascript & jQuery",
     "available": true,
     "url": "https://sandwich-maker-d97d5.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/sandwich-maker"
   },
   "project3" : {
+    "title": "Pixel Art",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pixelart/master/screenshots/pixelArt1.PNG",
+    "description": "Use this application for fun to fill each square in the grid with the color of your choice. All you have to do is select the radio button for the color of your choice, and then click on the corresponding square that you'd like to change the color of.",
+    "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
+    "available": true,
+    "url": "https://pixel-art-859eb.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/pixelart"
+  },
+  "project4" : {
     "title": "Pinterest",
     "screenshot": "",
     "description": "A good project description includes 'the what', 'the why', and 'the how'. This application is the foundation for a Pinterest-like application that we will be working on for the remainder of the semester. Currently this application incorporates Google Authentication via Firebase to allow users to login with their existing Google account.",
     "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
     "available": false,
-    "url": "https://pixel-art-859eb.firebaseapp.com/",
+    "url": "",
     "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
   }
 }
