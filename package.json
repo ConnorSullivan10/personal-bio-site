@@ -1,0 +1,48 @@
+{
+  "name": "personal-bio-site",
+  "version": "1.0.0",
+  "description": "This single-page application is an extremely rough draft with basic functionality for the basis of my Personal bio site, that will display my previous work and background going into a development career. The current version includes a navigation bar at the top to display my biography, the technologies I've used, along with some of my development projects at the current date. Clicking the titled buttons at the top left of the site will display the corresponding details of the button selected (including my name at the top and contact info in the footer).",
+  "main": "src/javascripts/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorSullivan10/personal-bio-site.git"
+  },
+  "keywords": [],
+  "author": "Connor Sullivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorSullivan10/personal-bio-site/issues"
+  },
+  "homepage": "https://github.com/ConnorSullivan10/personal-bio-site#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "firebase": "^7.5.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}

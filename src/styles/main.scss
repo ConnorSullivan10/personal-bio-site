@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: lightblue;
+}
+
+#bioPage {
+    text-align: justify;
+    margin-top: 75px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    #bio {
+      display: inline-block;
+  }
+}
+
+#projectsPage{
+  display: none;
+  margin-top: 75px;
+}
+  
+#technologiesPage {
+    display: none;
+    margin-top: 75px;
+}
+
+.container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+  
+.footer {
+    background-color: #f5f5f5;
+}
+
+.footer-item {
+  margin: 1em;
+}
