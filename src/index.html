@@ -8,21 +8,29 @@
   <title>Connor's Portfolio</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+<header>
   <!-- Navigation -->
-  <nav>
-    <h1>Connor Sullivan</h1>
-     <h2></h2>
-      <h3></h3>
-       <h4></h4>
-        <h5></h5>
-         <h6></h6>
-    <div id="navLinks">
-      <button type="button" class="btn btn-primary" id="navToBio">Bio</button></<button>
-      <button type="button" class="btn btn-secondary" id="navToTechnologies">Technologies</button></<button>
-      <button type="button" class="btn btn-success" id="navToProjects">Projects</button></<button>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Connor Sullivan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" id="navToBio" href="#">Bio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navToTechnologies" href="#">Technologies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navToProjects" href="#" tabindex="-1">Projects</a>
+        </li>
+      </ul>
     </div>
   </nav>
+</header>
   <!-- End Navigation -->
 
   <!-- Primary View -->
@@ -57,11 +65,15 @@
   <!-- End Primary View -->
 
   <!-- Footer -->
-  <footer class="page-footer">
-      <p>Connor Sullivan</p>
-      <p>cksullvn@gmail.com</p>
-      <a href=https://www.linkedin.com/in/connorksullivan10>LinkedIn</a>
-      <a href=https://github.com/ConnorSullivan10>Github Profile</a>
+  <footer class="page-footer footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">
+          <p>Connor Sullivan</p>
+          <p>cksullvn@gmail.com</p>
+          <a href=https://www.linkedin.com/in/connorksullivan10>LinkedIn</a>
+          <a href=https://github.com/ConnorSullivan10>Github Profile</a>
+      </span>
+    </div>
     <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
   </footer>
   <!-- End Footer -->
