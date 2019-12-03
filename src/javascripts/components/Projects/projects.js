@@ -4,7 +4,7 @@ import projectsData from '../../helpers/data/projectsData';
 
 const displayAllProjects = () => {
   let domString = '<h1 class="text-center">Projects</h1>';
-  domString += '<div id="projects-section" class="d-flex flex-wrap">';
+  domString += '<div id="projects-section" class="d-flex flex-wrap justify-content-center">';
   projectsData.getAllProjects()
     .then((projects) => {
       projects.forEach((project) => {
@@ -21,15 +21,14 @@ const projectCardBuilder = (project) => {
   let domString = '';
   if (project.available === true) {
     domString += `
-    <div id="${project.id}" class="card projectCard card-body text-center" style=" width: 20em; max-width: 500px; height: 100%; margin: 2em;">
+    <div id="${project.id}" class="card projectCard card-body" style=" width: 20em; max-width: 500px; height: 100%; margin: 2em;">
       <img src="${project.screenshot}" class="card-img-top" alt="..." style="width: 100%; height: auto;">
       <br>
       <h5 class="card-title" id="project">${project.title}</h5>
+      <p class="card-text"><small class="text-muted">${project.technologiesUsed}</small></p>
       <p class="card-text">${project.description}</p>
-      <p class="card-text">${project.technologiesUsed}</p>
-      <p class="card-text"><small class="text-muted">${project.size}</small></p>
-      <a>${project.url}</a>
-      <a>${project.githubUrl}</a>
+      <a class="text-center" href="${project.url}">Project Link</a>
+      <a class="text-center" href="${project.githubUrl}">Github</a>
     </div>`;
   }
   return domString;

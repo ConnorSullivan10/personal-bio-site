@@ -2,13 +2,13 @@
 
 body {
     background-color: lightblue;
-    margin-left: 1em;
-    margin-right: 1em;
 }
 
 #bioPage {
     text-align: justify;
     margin-top: 75px;
+    margin-left: 1em;
+    margin-right: 1em;
 
     #bio {
       display: inline-block;
@@ -27,10 +27,14 @@ body {
 
 .container {
     width: auto;
-    max-width: 680px;
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
   
 .footer {
     background-color: #f5f5f5;
+}
+
+.footer-item {
+  margin: 1em;
 }
