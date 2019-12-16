@@ -28,11 +28,11 @@
   },
   "project4" : {
     "title": "Pinterest",
-    "screenshot": "",
-    "description": "A good project description includes 'the what', 'the why', and 'the how'. This application is the foundation for a Pinterest-like application that we will be working on for the remainder of the semester. Currently this application incorporates Google Authentication via Firebase to allow users to login with their existing Google account.",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pinterest/master/screenshots/pickterest2.PNG",
+    "description": "This application mimics a Pinterest-like application that is oriented around guitar/musical gear. Users are able to create, delete, and edit pins and boards of their favorite ideas for musical gear to get. It incorporates Google Authentication via Firebase to allow users to login store/modify data from firebase using CRUD elements,linked to their pins/boards and data connected with their authenticated Google login account.",
     "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
-    "available": false,
-    "url": "",
+    "available": true,
+    "url": "https://pinterest-18ecc.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
   }
 }
