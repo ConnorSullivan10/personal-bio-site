@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-@import "../node_modules/bulma/bulma.sass";
+// @import "../node_modules/bulma/bulma.sass";
 
 body {
     background-color: lightblue;
@@ -7,7 +7,6 @@ body {
 
 #bioPage {
     text-align: justify;
-    margin-top: 75px;
     margin-left: 1em;
     margin-right: 1em;
 
@@ -18,12 +17,10 @@ body {
 
 #projectsPage{
   display: none;
-  margin-top: 75px;
 }
   
 #technologiesPage {
     display: none;
-    margin-top: 75px;
 }
 
 .container {

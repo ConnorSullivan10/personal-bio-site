@@ -10,14 +10,14 @@
 <body class="d-flex flex-column h-100">
 <header>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="#">Connor Sullivan</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" id="navToBio" href="#">Bio</a>
         </li>
         <li class="nav-item">
@@ -28,12 +28,43 @@
         </li>
       </ul>
     </div>
+  </nav> -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">Connor Sullivan</a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" id="navToBio">
+          Bio
+        </a>
+        <a class="navbar-item" id="navToTechnologies">
+          Technologies
+        </a>
+        <a class="navbar-item" id="navToProjects">
+          Projects
+        </a>
+  
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          Contact
+        </div>
+      </div>
+    </div>
   </nav>
 </header>
   <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="fullPagec content" id="bioPage">
+  <div class="fullPage content" id="bioPage">
     <p id="bio">     I received my undergraduate degrees in Marketing and Psychology with aspirations of working as a marketer in the music industry.
         After establishing my career as a marketer and director of client relations for a music studio in Jacksonville, I worked for Web.com,
         a Digital Marketing Agency where I was introduced to PPC and SEO advertising, and had my first hands-on experience with HTML and CSS
