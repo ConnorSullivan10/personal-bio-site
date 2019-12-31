@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import './navbar.scss';
 
 const displayBio = () => {
   $('#navToBio').on('click', () => {

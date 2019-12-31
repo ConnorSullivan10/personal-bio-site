@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+
+.navSec {
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  color: $cgreen;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-end {
+  margin-right: 1em;
+}
+
+.icon {
+  color:$cgreen;
+}

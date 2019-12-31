@@ -26,25 +26,13 @@
   
 #technologiesPage {
     display: none;
-    margin: 2em;
+    margin-top: 10%;
 }
 
 .container {
     width: auto;
     display: flex;
     justify-content: center;
-}
-
-.navbar {
-  padding: 0;
-}
-
-.navbar-end {
-  margin-right: 1em;
-}
-
-.icon {
-  color:$cgreen;
 }
 
 #html-logo {
@@ -92,8 +80,20 @@
   width: auto;
 }
 
-.navSec {
-  font-family: 'Exo', sans-serif;
-  font-weight: bold;
-  color: $cgreen;
+
+#technologiesPage .column {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
