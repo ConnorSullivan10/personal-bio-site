@@ -1,9 +1,12 @@
-@import "~bootstrap/scss/bootstrap";
+//@import "~bootstrap/scss/bootstrap";
+@import './variables';
+// $fa-font-path: "~@fortawesome/fontawesome-free/webfonts/";
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+// @import '~@fortawesome/fontawesome-free/scss/solid'; 
+// @import '~@fortawesome/fontawesome-free/scss/regular'; 
+// @import '~@fortawesome/fontawesome-free/scss/brands'; 
 // @import "../node_modules/bulma/bulma.sass";
 
-body {
-    background-color: lightblue;
-}
 
 #bioPage {
     text-align: justify;
@@ -12,6 +15,8 @@ body {
 
     #bio {
       display: inline-block;
+      font-family: 'Exo', sans-serif;
+      color: $cgreen;
   }
 }
 
@@ -28,11 +33,66 @@ body {
     display: flex;
     justify-content: center;
 }
-  
-.footer {
-    background-color: #f5f5f5;
+
+.navbar {
+  padding: 0;
 }
 
-.footer-item {
-  margin: 1em;
+.navbar-end {
+  margin-right: 1em;
+}
+
+.icon {
+  color:$cgreen;
+}
+
+#html-logo {
+  height: 100px;
+  width: auto;
+}
+#css-logo {
+  height: 100px;
+  width: auto;
+}
+#js-logo {
+  height: 100px;
+  width: auto;
+}
+#react-logo {
+  height: 100px;
+  width: auto;
+}
+#ajax-logo {
+  height: 100px;
+  width: auto;
+}
+#jquery-logo {
+  height: 100px;
+  width: auto;
+}
+#github-logo {
+  height: 100px;
+  width: auto;
+}
+#firebase-logo {
+  height: 100px;
+  width: auto;
+}
+#bootstrap-logo {
+  height: 100px;
+  width: auto;
+}
+#bulma-logo {
+  height: 100px;
+  width: auto;
+}
+#sass-logo {
+  height: 100px;
+  width: auto;
+}
+
+.navSec {
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  color: $cgreen;
 }
