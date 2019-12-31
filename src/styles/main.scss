@@ -1,4 +1,4 @@
-//@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
 @import './variables';
 // $fa-font-path: "~@fortawesome/fontawesome-free/webfonts/";
 // @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
@@ -26,6 +26,7 @@
   
 #technologiesPage {
     display: none;
+    margin: 2em;
 }
 
 .container {
