@@ -1,15 +1,34 @@
-// @import "~bootstrap/scss/bootstrap";
 @import './variables';
-// $fa-font-path: "~@fortawesome/fontawesome-free/webfonts/";
-// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-// @import '~@fortawesome/fontawesome-free/scss/solid'; 
-// @import '~@fortawesome/fontawesome-free/scss/regular'; 
-// @import '~@fortawesome/fontawesome-free/scss/brands'; 
-// @import "../node_modules/bulma/bulma.sass";
 
+#homePage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  h1 {
+    position: absolute;
+    z-index: 2;
+} 
+
+  figure {
+    left: 0;
+    top: 0;
+    opacity: 0.65;
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%;
+    img {
+      margin-top: 450px;
+    }
+  }
+}
 
 #bioPage {
-    text-align: justify;
     margin-left: 1em;
     margin-right: 1em;
 
@@ -20,12 +39,8 @@
   }
 }
 
-#projectsPage{
+#bioPage, #projectsPage, #technologiesPage{
   display: none;
-}
-  
-#technologiesPage {
-    display: none;
 }
 
 .container {
@@ -34,47 +49,10 @@
     justify-content: center;
 }
 
-#html-logo {
-  height: 100px;
-  width: auto;
-}
-#css-logo {
-  height: 100px;
-  width: auto;
-}
-#js-logo {
-  height: 100px;
-  width: auto;
-}
-#react-logo {
-  height: 100px;
-  width: auto;
-}
-#ajax-logo {
-  height: 100px;
-  width: auto;
-}
-#jquery-logo {
-  height: 100px;
-  width: auto;
-}
-#github-logo {
-  height: 100px;
-  width: auto;
-}
-#firebase-logo {
-  height: 100px;
-  width: auto;
-}
-#bootstrap-logo {
-  height: 100px;
-  width: auto;
-}
-#bulma-logo {
-  height: 100px;
-  width: auto;
-}
-#sass-logo {
+#html-logo, #css-logo, #js-logo, #react-logo, 
+#ajax-logo, #jquery-logo, #github-logo,
+#firebase-logo, #bootstrap-logo, #bulma-logo, 
+#sass-logo, #webpack-logo {
   height: 100px;
   width: auto;
 }

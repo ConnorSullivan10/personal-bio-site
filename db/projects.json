@@ -1,23 +1,32 @@
 {
   "project1" : {
+    "title": "Star Destroyer Group Project (Sectors Page & Styling)",
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-star-destroyer/master/src/screenshots/sectorsScreenshot.PNG",
+    "description": "Use this application to view the Star Destroyer Database and its contents. When logged in as a member of the Galactic Empire, via Google Authentication, you can modify the Star Destroyer's database contents using CRUD components on each page.",
+    "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
+    "available": true,
+    "url": "https://nutshell-star-destroyer.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-star-destroyer"
+  },
+  "project2" : {
+    "title": "Pinterest",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pinterest/master/screenshots/pickterest2.PNG",
+    "description": "This application mimics a Pinterest-like application that is oriented around guitar/musical gear. Users are able to create, delete, and edit pins and boards of their favorite ideas for musical gear to get. It incorporates Google Authentication via Firebase to allow users to login store/modify data from firebase using CRUD elements,linked to their pins/boards and data connected with their authenticated Google login account.",
+    "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
+    "available": true,
+    "url": "https://pinterest-18ecc.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
+  },
+  "project3" : {
     "title": "Solar System",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/solar-system/master/screenshots/solarSystemHoverFuncScreenshot.PNG",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/solar-system/master/screenshots/solarSystemHoverScreenshot.PNG",
     "description": "Use this application to search for and print educational cards detailing each of the planets in our Solar System.",
     "technologiesUsed": "HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
     "available": true,
     "url": "https://solar-system-63bf6.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/solar-system"
   },
-  "project2" : {
-    "title": "Sandwich Maker",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichPreview1.PNG",
-    "description": "Use this application to select sandwich ingredients and get a final cost for a super-awesome custom sandwich creation. Simply click the checkboxes for the ingredients that you'd like in your custom sandwich, and once you're finished selecting options, click the 'Build Your Custom Sandwich' button to see your total for your custom sandwich creation!",
-    "technologiesUsed": "HTML, CSS, Javascript & jQuery",
-    "available": true,
-    "url": "https://sandwich-maker-d97d5.firebaseapp.com/",
-    "githubUrl": "https://github.com/ConnorSullivan10/sandwich-maker"
-  },
-  "project3" : {
+  "project4" : {
     "title": "Pixel Art",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pixelart/master/screenshots/pixelArt1.PNG",
     "description": "Use this application for fun to fill each square in the grid with the color of your choice. All you have to do is select the radio button for the color of your choice, and then click on the corresponding square that you'd like to change the color of.",
@@ -26,13 +35,13 @@
     "url": "https://pixel-art-859eb.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/pixelart"
   },
-  "project4" : {
-    "title": "Pinterest",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pinterest/master/screenshots/pickterest2.PNG",
-    "description": "This application mimics a Pinterest-like application that is oriented around guitar/musical gear. Users are able to create, delete, and edit pins and boards of their favorite ideas for musical gear to get. It incorporates Google Authentication via Firebase to allow users to login store/modify data from firebase using CRUD elements,linked to their pins/boards and data connected with their authenticated Google login account.",
-    "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
+  "project5" : {
+    "title": "Sandwich Maker",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichPreview1.PNG",
+    "description": "Use this application to select sandwich ingredients and get a final cost for a super-awesome custom sandwich creation. Simply click the checkboxes for the ingredients that you'd like in your custom sandwich, and once you're finished selecting options, click the 'Build Your Custom Sandwich' button to see your total for your custom sandwich creation!",
+    "technologiesUsed": "HTML, CSS, Javascript & jQuery",
     "available": true,
-    "url": "https://pinterest-18ecc.firebaseapp.com/",
-    "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
+    "url": "https://sandwich-maker-d97d5.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/sandwich-maker"
   }
 }
