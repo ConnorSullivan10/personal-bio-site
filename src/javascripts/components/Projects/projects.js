@@ -31,7 +31,7 @@ const projectCardBuilder = (project) => {
             </a>
           </div>
           <div class="media-content">
-            <a href="${project.url}"><p class="title is-4" id="project" style=" color: blue;">${project.title}</p></a>
+            <a class="projectTitle" href="${project.url}"><p class="title is-4" id="project" style="color: rgb(84, 123, 196);">${project.title}</p></a>
             <p class="subtitle is-6 ">${project.technologiesUsed}</p>
           </div>
         </div>
