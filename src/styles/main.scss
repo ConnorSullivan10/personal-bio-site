@@ -38,6 +38,10 @@ image {
           .headshot {
             height: 200px;
             width: 200px;
+            img{
+              box-shadow: 1px 2px 5px rgb(70, 69, 69);
+              border: solid 3px white;
+            }
           }
       }
 }
@@ -155,6 +159,7 @@ image {
 .typedHeader {
   font-family: 'Exo', sans-serif;
   font-weight: bold;
+  text-shadow: 1px 2px 5px rgb(70, 69, 69);
 }
 
 .dev {
@@ -181,4 +186,14 @@ image {
   font-weight: bold;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.weddingShot {
+  box-shadow: 1px 2px 5px rgb(70, 69, 69);
+  border: solid 3px $cgreen;
+}
+
+.is-16x9 img {
+  box-shadow: 1px 2px 5px rgb(70, 69, 69);
+  border: solid 3px white;
 }
