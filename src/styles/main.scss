@@ -103,6 +103,7 @@
 
 #technologiesPage {
   margin-top: 3%;
+  height: 100%;
 }
 
 #technologiesPage .column, .media-content {
@@ -120,4 +121,36 @@
       100% {
         opacity: 1;
       }
+    }
+
+    .hero.is-medium .hero-body {
+      padding-top: 0;
+      padding-bottom: 0;
+      padding: 0;
+    }
+    
+    .bio-hero {
+      background-color: $cgreen;
+
+      .bioHead {
+        margin: auto;
+      }
+    }
+    
+    .typedHeader {
+      font-family: 'Exo', sans-serif;
+      font-weight: bold;
+    }
+
+    .dev {
+      margin-top: 4px;
+    }
+
+    .music {
+      margin-top: 9px;
+    }
+
+    .head-level {
+      padding-top: 1em;
+      padding-bottom: 1em;
     }
