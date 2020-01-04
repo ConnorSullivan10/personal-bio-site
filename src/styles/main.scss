@@ -1,5 +1,9 @@
 @import './variables';
 
+image {
+  text-shadow: 1px 2px 5px rgb(70, 69, 69);
+}
+
 #homePage {
   display: flex;
   justify-content: center;
@@ -43,9 +47,11 @@
     margin-right: 1em;
 
     #bio {
-      display: inline-block;
       font-family: 'Exo', sans-serif;
+      font-weight: bold;
       color: $cgreen;
+      text-align: justify;
+      text-justify: inter-word;
   }
 }
 
@@ -114,6 +120,14 @@
   animation-duration: .5s;
 }
 
+#bioPage p, .hero {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .5s;
+}
+
 @keyframes fadeInOpacity {
       0% {
         opacity: 0;
@@ -123,38 +137,48 @@
       }
     }
 
-    .hero.is-medium .hero-body {
+.hero.is-medium .hero-body {
       padding-top: 0;
       padding-bottom: 0;
       padding: 0;
+      box-shadow: 1px 2px 5px rgb(70, 69, 69);
     }
     
-    .bio-hero {
+.bio-hero {
       background-color: $cgreen;
 
-      .bioHead {
+  .bioHead {
         margin: auto;
       }
-    }
+}
     
-    .typedHeader {
-      font-family: 'Exo', sans-serif;
-      font-weight: bold;
-    }
+.typedHeader {
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+}
 
-    .dev {
-      margin-top: 4px;
-    }
+.dev {
+  margin-top: 4px;
+}
 
-    .music {
-      margin-top: 9px;
-    }
+.music {
+  margin-top: 9px;
+}
 
-    .head-level {
-      padding-top: 1em;
-      padding-bottom: 1em;
-    }
+.head-level {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
-    .arrow {
-      padding: 0;
-    }
+.arrow {
+  padding: 0;
+}
+
+.tab {
+  text-indent: 1em;
+  color: $cgreen;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: inter-word;
+}
