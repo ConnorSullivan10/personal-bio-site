@@ -12,9 +12,9 @@ This single-page application is the basis of my personal web and software develo
 
 ## Screenshots
 Personal Bio Site Preview
-![Personal Bio Page Preview](https://raw.githubusercontent.com/ConnorSullivan10/personal-bio-site/master/screenshots/rough-bio-page.PNG) 
-![Personal Projects Page Preview](https://raw.githubusercontent.com/ConnorSullivan10/personal-bio-site/master/screenshots/rough-projects-page.PNG)  
-![Personal Technologies Page Preview](https://raw.githubusercontent.com/ConnorSullivan10/personal-bio-site/master/screenshots/rough-technologies-page.PNG)
+![Personal Bio Page Preview](https://raw.githubusercontent.com/ConnorSullivan10/personal-bio-site/master/screenshots/personalBio1.PNG) 
+![Personal Projects Page Preview](https://raw.githubusercontent.com/ConnorSullivan10/personal-bio-site/master/screenshots/personalBio2.PNG)  
+![Personal Technologies Page Preview](https://raw.githubusercontent.com/ConnorSullivan10/personal-bio-site/master/screenshots/personalBio3.PNG)
 
 ## How to run
 * Clone down this project
@@ -22,4 +22,4 @@ Personal Bio Site Preview
 * At the root of this project run the following command: `hs -p 8888`;
 * In your browser navigate to `https://localhost:8888`
 
-Navigate to the following link in your web browser: 
+Navigate to the following link in your web browser: https://personal-bio-site-b8e8b.firebaseapp.com/
