@@ -32,23 +32,24 @@ image {
       justify-content: center;
     }
   }
-          .home-header {
-            position: relative;
-            opacity: 1 !important;
-            z-index: 2;
-            display: flex;
-            align-items: center;
-            margin-left: 5%;
-            margin-right: 5%;
-            .headshot {
-              max-height: 200px;
-              max-width: 200px;
-              .headPic{
-                box-shadow: 1px 2px 5px rgb(70, 69, 69);
-                border: solid 3px white;
-              }
-            }
-        }
+  
+ .home-header {
+  position: relative;
+  opacity: 1 !important;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  .headshot {
+    max-height: 200px;
+    max-width: 200px;
+    .headPic{
+      box-shadow: 1px 2px 5px rgb(70, 69, 69);
+      border: solid 3px white;
+    }
+  }
+}
 
 .bioPage {
     margin-left: 1em;
@@ -63,8 +64,9 @@ image {
   }
 }
 
-.bioPage, .projectsPage, .technologiesPage{
+.bioPage, .projectsPage{
   display: none;
+  margin-top: 100px;
 }
 
 .container {
@@ -74,54 +76,22 @@ image {
 }
 
 .typedHeader {
-      font-family: 'Gelasio', serif;
-      color: white;
-      text-shadow: 1px 2px 5px rgb(70, 69, 69);
-      font-weight: bold;
-}
-
-.homeBtn{
-  box-shadow: 1px 2px 5px rgb(70, 69, 69);
-
-  .btnIcon{
-    color: $cgreen;
-    font-size: 2rem;
-  }
-  
-  .btnText {
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
-    color: $cgreen;
-    padding-left: 5px;
-  }
-  
-  .linkedinBtn {
-    padding-bottom: 5px;
-  }
-  
-  .contactBtn {
-    color: $cgreen;
-  }
-}
-
-.technologiesPage {
-  margin-left: 1em;
-  margin-right: 1em;
-  align-items: space-around;
-  height: 100%;
-}
-
-.technologiesPage .column, .media-content {
-  opacity: 1;
+  font-family: 'Gelasio', serif;
+  color: white;
+  text-shadow: 1px 2px 5px rgb(70, 69, 69);
+  font-weight: bold;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: .5s;
+}
+
+ .media-content {
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
 }
 
-#bioPage p, .hero {
+.bioPage p {
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -177,17 +147,14 @@ image {
   padding-top: 0;
 }
 
-.tech {
-  max-width:175px;
-  max-height:175px;
-  min-height: 50px;
-  min-width: 50px;
-  width:100%;
-  height:100%;
-}
 
 .devicon {
   font-size: 2.9em;
   color: white;
   text-shadow: 1px 2px 5px rgb(70, 69, 69);
+}
+
+.blackAndWhite {
+  display: flex;
+  justify-content: center;
 }

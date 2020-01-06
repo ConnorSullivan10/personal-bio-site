@@ -1,7 +1,14 @@
 # Personal Bio Site
 
+## Technologies Used
+1. HTML5, CSS, JavaScript
+2. SASS 0.5.0 & Bulma v0.8.0: All customized styling
+3. jQuery: For all DOM manipulation 
+4. Webpack: For creation of modules
+5. Firebase: For application hosting and database storage.
+
 ## Description
-This single-page application is an extremely rough draft with basic functionality for the basis of my Personal bio site, that will display my previous work and background going into a development career. The current version includes a navigation bar at the top to display my biography, the technologies I've used, along with some of my development projects at the current date. Clicking the titled buttons at the top left of the site will display the corresponding details of the button selected (including my name at the top and contact info in the footer).
+This single-page application is the basis of my personal web and software development portfolio, that displays my previous dev work and background prior to my development career. 
 
 ## Screenshots
 Personal Bio Site Preview
@@ -14,3 +21,5 @@ Personal Bio Site Preview
 * Install [https-server](https://www.npmjs.com/package/http-server) from npm
 * At the root of this project run the following command: `hs -p 8888`;
 * In your browser navigate to `https://localhost:8888`
+
+Navigate to the following link in your web browser: 
