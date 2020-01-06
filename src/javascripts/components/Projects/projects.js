@@ -3,8 +3,7 @@ import utilities from '../../helpers/utilities';
 import projectsData from '../../helpers/data/projectsData';
 
 const displayAllProjects = () => {
-  let domString = '<h1 class="text-center">Projects</h1>';
-  domString += '<div id="projects-section" class="d-flex flex-wrap justify-content-center">';
+  let domString = '<div id="projects-section">';
   projectsData.getAllProjects()
     .then((projects) => {
       projects.forEach((project) => {
@@ -21,14 +20,28 @@ const projectCardBuilder = (project) => {
   let domString = '';
   if (project.available === true) {
     domString += `
-    <div id="${project.id}" class="card projectCard card-body" style=" width: 20em; max-width: 500px; height: 100%; margin: 2em;">
-      <img src="${project.screenshot}" class="card-img-top" alt="..." style="width: 100%; height: auto;">
-      <br>
-      <h5 class="card-title" id="project">${project.title}</h5>
-      <p class="card-text"><small class="text-muted">${project.technologiesUsed}</small></p>
-      <p class="card-text">${project.description}</p>
-      <a class="text-center" href="${project.url}">Project Link</a>
-      <a class="text-center" href="${project.githubUrl}">Github</a>
+    <div id="${project.id}" class="projectCard card">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <a class="logo" href="${project.githubUrl}">
+              <span class="is-medium">
+                <i class="fa fa-2x fab fa-github"></i>
+              </span>
+            </a>
+          </div>
+          <div class="media-content">
+            <a class="projectTitle" href="${project.url}"><p class="title is-4" id="project" style="color: rgb(84, 123, 196);">${project.title}</p></a>
+            <p class="subtitle is-6 ">${project.technologiesUsed}</p>
+          </div>
+        </div>
+        <p class="card-text">${project.description}</p>
+        <div class="card-image">
+          <figure class="image">
+            <img src="${project.screenshot}"  alt="Project Screenshot" >
+          </figure>
+        </div>
+      </div>
     </div>`;
   }
   return domString;

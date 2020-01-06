@@ -1,0 +1,26 @@
+@import '../../../styles/variables';
+
+.navSec {
+  font-family: 'Gelasio', serif;
+  font-weight: bold;
+  color: $cgreen;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-end {
+  margin-right: 1em;
+  align-items: center;
+  .navbar-item {
+    padding: 1.5em;
+  }
+}
+
+.icon {
+  color:$cgreen;
+  :hover {
+    color: rgb(84, 123, 196);
+  }
+}

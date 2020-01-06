@@ -3,82 +3,129 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
-  <title>Connor's Portfolio</title>
+  <link rel="stylesheet" href="main.scss">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css" rel="stylesheet" integrity="sha384-
+wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="icon" href="../images/logo.ico">
+  <title>Connor Sullivan</title>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body>
 <header>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Connor Sullivan</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" id="navToBio" href="#">Bio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="navToTechnologies" href="#">Technologies</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="navToProjects" href="#" tabindex="-1">Projects</a>
-        </li>
-      </ul>
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-logo" id="navToHome">
+        <figure class="image is-96x96">
+          <img src="../images/92fe717e-483c-4114-bad7-66adbaab4646_200x200.png" class="is-rounded">
+        </figure>
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item navSec heading is-size-5" id="navToBio">
+          Bio
+        </a>
+        <a class="navbar-item navSec heading is-size-5" id="navToProjects">
+          Projects
+        </a>
+      </div>
+  
+      <div class="navbar-end">
+        <a class="navbar-item icon logo" href="https://github.com/ConnorSullivan10">
+          <span class="is-medium">
+            <i class="fa fa-2x fab fa-github"></i>
+          </span>
+        </a>
+        <a class="navbar-item icon logo" href="https://www.linkedin.com/in/connorksullivan10">
+          <span class="is-medium">
+            <i class="fa fa-2x fab fa-linkedin"></i>
+          </span>
+        </a>
+        <a class="navbar-item icon logo" href="mailto:cksullvn@gmail.com">
+          <span class="is-medium">
+            <i class="fa fa-2x far fa-envelope" ></i>
+          </span>
+        </a>
+      </div>
     </div>
   </nav>
 </header>
-  <!-- End Navigation -->
 
-  <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <p id="bio">     I received my undergraduate degrees in Marketing and Psychology with aspirations of working as a marketer in the music industry.
-        After establishing my career as a marketer and director of client relations for a music studio in Jacksonville, I worked for Web.com,
-        a Digital Marketing Agency where I was introduced to PPC and SEO advertising, and had my first hands-on experience with HTML and CSS
-        while working on Landing Pages for digital marketing campaigns I was building.
-            Growing up, I was always fascinated with figuring out how things worked, whether it was taking apart a broken computer as a child 
-        to see all the internal parts, or working on guitar amps and guitar electronics throughout my teen years and emerging adulthood. So
-        once I was able to work on landing pages at Web.com and get my first taste of what website coding looked like, the door to my curiousity
-        was blown right open. It didn't take long for me to realize that the expanse of coding languages and possibilites was a further rabbit hole
-        than I could ever imagine, but thanks to my brief experience working on Landing Pages, as well as through the encouragement of
-        numerous developer friends, I decided that becoming a developer was my next destination on my career path.
-            I had full intentions of starting fresh after living in Jacksonville for 12 years, and after visiting Nashville numerous times over the
-        years, I knew Nashville was my next destination, especially after I discovered NSS. In January of 2019 I made it my mission to get to Nashville, and after sending out a plethora 
-        of applications throughout the new year, I recieved a job offer from a startup called Takl at the end of February, and the rest is history.
-            I'm extremely grateful for the skills I've established as a Digital Marketing Analyst, but the simple fact is that I've quickly
-        achieved a point where I feel my interests in and the challenges from Digital Marketing have been very short-lived, and I appreciate
-        the consistent learning, challenges, creativity, and (in my opinion) more-tangible and direct results I am able to drive as a developer.</p>
-    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-  </div>
-  <div class="fullPage" id="technologiesPage">
-      <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>jQuery</li>
-          <li>React</li>
-      </ul>
-    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-  </div>
-  <div class="fullPage" id="projectsPage"></div>
-  <!-- End Primary View -->
-
-  <!-- Footer -->
-  <footer class="page-footer footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted row">
-          <p class="footer-item">Connor Sullivan</p>
-          <p class="footer-item">cksullvn@gmail.com</p>
-          <a class="footer-item" href=https://www.linkedin.com/in/connorksullivan10>LinkedIn</a>
-          <a class="footer-item"href=https://github.com/ConnorSullivan10>Github Profile</a>
-      </span>
+  <div class="fullPage homePage" id="homePage">
+    <div class="homeBackground" id="homeBackground"></div>
+    <div class="media home-header">
+      <figure class="image media-left headshot">
+        <img class="is-rounded headPic" src="../images/weddingSquare.jpg">
+      </figure>
+      <div class="media-content">
+        <p class="is-size-1-desktop is-size-2-tablet is-size-6-mobile typedHeader">Hi, I'm Connor:</p>
+        <p class="is-size-2-desktop is-size-3-tablet is-size-7-mobile typedHeader">A Nashville Based Software Developer</p>
+        <div class="newTechnologies level">
+            <i class="devicon devicon-html5-plain"></i>
+            <i class="devicon devicon-css3-plain"></i>
+            <i class="devicon devicon-javascript-plain"></i>
+            <i class="devicon devicon-react-original"></i>
+            <i class="devicon devicon-jquery-plain"></i>
+            <i class="devicon devicon-git-plain"></i>
+            <i class="devicon devicon-bootstrap-plain"></i>
+            <i class="devicon devicon-sass-original"></i>
+            <i class="devicon devicon-webpack-plain"></i>
+        </div>
+      </div>
     </div>
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+  </div>
+  <div class="fullPage bioPage" id="bioPage">
+    <div class="section mainBio columns level">
+      <p id="bio" class=" bio column level-item is-two-thirds is-size-3-desktop is-size-6-mobile">     
+        Growing up, I was always fascinated with figuring out how things worked: whether it was taking apart a broken computer as a child, or working on guitar amps and electronics throughout the years.
+        Once I started working on landing pages at my first job out of school, and I had my first glimpse of what website code looked like, the door to my curiousity
+        was blown wide open.
+      </p>
+      <figure class="image column level-item is-one-third blackAndWhite">
+        <img class="weddingShot bioPics is-rounded" src="../images/blackAndWhite.jpg">
+      </figure>
+    </div>
+    <div class="section bottomBio columns level">
+      <div class="bioSubImages column level-item is-one-third">
+        <figure class="image">
+          <img class="bioPics nammShot is-rounded" src="../images/namm.jpg">
+        </figure>
+        <figure class="image">
+          <img class="bioPics colShot is-rounded" src="../images/colorado.jpg">
+        </figure>
+      </div>
+      <div class="bioCopy column level-item is-two-thirds">
+        <p class="tab is-size-4-desktop is-size-5-tablet is-size-7-mobile">   I earned my undergraduate degrees in Marketing and Psychology with aspirations of working as a marketer in the music industry.
+              After initially establishing my career as the Director of Client Relations for a music studio in Florida, I worked for Web.com:
+              a Digital Marketing Agency where I was introduced to Paid Search Advertising and Search Engine Optimization, and subsequently 
+              had my first hands-on experience with HTML and CSS while working on Landing Pages for the Digital Marketing Campaigns I was 
+              building.It didn't take long for me to realize that the expanse of coding was a deeper rabbit hole than I could ever have imagined.
+              Through my experience working on Landing Pages, as well as the encouragement of numerous developer friends, I decided that 
+              becoming a developer was the next destination on my career path.</p>
+              <p class="tab is-size-4-desktop is-size-5-tablet is-size-7-mobile">I fully intended to start fresh in a new city after living in Jacksonville for 12 years, and after visiting Nashville
+              numerous times over the years, I knew it was my next destination (especially after I discovered Nashville Software School 
+              where I expanded my Dev Education). In January of 2019 I firmly decided to devote all my resources into relocating to Nashville,
+              and after sending out many applications throughout the new year, I recieved a job offer to be a Digital Marketing Analyst for a
+                startup called Takl at the end of February, and the rest was history. I'm extremely grateful for the skills I've established in the Digital Marketing realm, but the simple fact is that I've quickly
+              achieved a point where I feel my interests in and the challenges from my current career have been very short-lived, and I appreciate
+              the consistent learning, challenges, creativity, and more-direct results I am able to drive as a developer.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="fullPage projectsPage" id="projectsPage"></div>
+
+  <footer class="page-footer">
   </footer>
-  <!-- End Footer -->
   <script src="main.js"></script>
 </body>
 </html>

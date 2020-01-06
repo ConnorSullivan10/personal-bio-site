@@ -1,17 +1,18 @@
 import $ from 'jquery';
+import './navbar.scss';
 
-const displayBio = () => {
-  $('#navToBio').on('click', () => {
-    $('#bioPage').show();
-    $('#technologiesPage').hide();
+const displayHome = () => {
+  $('#navToHome').on('click', () => {
+    $('#homePage').show();
+    $('#bioPage').hide();
     $('#projectsPage').hide();
   });
 };
 
-const displayTechnologies = () => {
-  $('#navToTechnologies').on('click', () => {
-    $('#technologiesPage').show();
-    $('#bioPage').hide();
+const displayBio = () => {
+  $('#navToBio').on('click', () => {
+    $('#bioPage').show();
+    $('#homePage').hide();
     $('#projectsPage').hide();
   });
 };
@@ -19,15 +20,23 @@ const displayTechnologies = () => {
 const displayProjects = () => {
   $('#navToProjects').on('click', () => {
     $('#projectsPage').show();
+    $('#homePage').hide();
     $('#bioPage').hide();
-    $('#technologiesPage').hide();
+  });
+};
+
+const burgerFunction = () => {
+  $('.navbar-burger').on('click', () => {
+    $('navbar-burger').toggleClass('is-active');
+    $('.navbar-menu').toggleClass('is-active');
   });
 };
 
 const attachNavbarEvents = () => {
+  displayHome();
   displayBio();
-  displayTechnologies();
   displayProjects();
+  burgerFunction();
 };
 
 export default { attachNavbarEvents };

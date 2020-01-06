@@ -1,28 +1,72 @@
-@import "~bootstrap/scss/bootstrap";
+@import './variables';
 
-body {
-    background-color: lightblue;
+image {
+  text-shadow: 1px 2px 5px rgb(70, 69, 69);
 }
 
-#bioPage {
-    text-align: justify;
-    margin-top: 75px;
-    margin-left: 1em;
-    margin-right: 1em;
+.homePage {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 
-    #bio {
-      display: inline-block;
+  .homeBackground {
+      display: flex;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      min-height:740px;
+      min-width: 350px;
+      z-index: 1;
+      opacity: .7;
+      background-image: url('../../images/nashville.jpg');
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  
+ .home-header {
+  position: relative;
+  opacity: 1 !important;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  .headshot {
+    max-height: 200px;
+    max-width: 200px;
+    .headPic{
+      box-shadow: 1px 2px 5px rgb(70, 69, 69);
+      border: solid 3px white;
+    }
   }
 }
 
-#projectsPage{
-  display: none;
-  margin-top: 75px;
+.bioPage {
+    margin-left: 1em;
+    margin-right: 1em;
+
+    .bio {
+      font-family: 'Gelasio', serif;
+      font-weight: bold;
+      color: $cgreen;
+      text-align: justify;
+      text-justify: inter-word;
+  }
 }
-  
-#technologiesPage {
-    display: none;
-    margin-top: 75px;
+
+.bioPage, .projectsPage{
+  display: none;
+  margin-top: 100px;
 }
 
 .container {
@@ -30,11 +74,87 @@ body {
     display: flex;
     justify-content: center;
 }
-  
-.footer {
-    background-color: #f5f5f5;
+
+.typedHeader {
+  font-family: 'Gelasio', serif;
+  color: white;
+  text-shadow: 1px 2px 5px rgb(70, 69, 69);
+  font-weight: bold;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .5s;
 }
 
-.footer-item {
-  margin: 1em;
+ .media-content {
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
+.bioPage p {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .5s;
+}
+
+@keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+.tab {
+  text-indent: 1em;
+  color: $cgreen;
+  font-family: 'Gelasio', serif;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.bioPics {
+  box-shadow: 1px 2px 5px rgb(70, 69, 69);
+  border: solid 3px $cgreen;
+}
+
+.weddingShot {
+  max-height: 450px;
+  max-width: 450px;
+}
+
+.nammShot {
+  margin-bottom: 1em;
+  max-height:343px;
+  max-width: 512px;
+  }
+
+.colShot {
+  max-height:385px;
+  max-width: 512px;
+  }
+
+.mainBio {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bottomBio {
+  padding-top: 0;
+}
+
+
+.devicon {
+  font-size: 2.9em;
+  color: white;
+  text-shadow: 1px 2px 5px rgb(70, 69, 69);
+}
+
+.blackAndWhite {
+  display: flex;
+  justify-content: center;
 }
