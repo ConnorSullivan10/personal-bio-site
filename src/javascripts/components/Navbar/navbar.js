@@ -37,11 +37,19 @@ const displayProjects = () => {
   });
 };
 
+const burgerFunction = () => {
+  $('.navbar-burger').on('click', () => {
+    $('navbar-burger').toggleClass('is-active');
+    $('.navbar-menu').toggleClass('is-active');
+  });
+};
+
 const attachNavbarEvents = () => {
   displayHome();
   displayBio();
   displayTechnologies();
   displayProjects();
+  burgerFunction();
 };
 
 export default { attachNavbarEvents };

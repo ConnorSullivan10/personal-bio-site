@@ -141,38 +141,6 @@ image {
       }
     }
 
-.hero.is-medium .hero-body {
-      padding-top: 0;
-      padding-bottom: 0;
-      padding: 0;
-      box-shadow: 1px 2px 5px rgb(70, 69, 69);
-    }
-    
-.bio-hero {
-      background-color: $cgreen;
-
-  .bioHead {
-        margin: auto;
-      }
-}
-
-.dev {
-  margin-top: 4px;
-}
-
-.music {
-  margin-top: 9px;
-}
-
-.head-level {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.arrow {
-  padding: 0;
-}
-
 .tab {
   text-indent: 1em;
   color: $cgreen;
@@ -187,13 +155,14 @@ image {
   border: solid 3px $cgreen;
 }
 
-.is-16x9 img {
-  box-shadow: 1px 2px 5px rgb(70, 69, 69);
-  border: solid 3px white;
-  max-height: 244px;
-  max-width: 185px;
+.nammShot {
+  margin-bottom: 1em;
+  }
+
+.mainBio {
+  margin-bottom: 0;
 }
 
-.media-content {
-  overflow: hidden;
+.bottomBio {
+  padding-top: 0;
 }
