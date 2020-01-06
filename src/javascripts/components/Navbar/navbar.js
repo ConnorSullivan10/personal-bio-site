@@ -2,6 +2,9 @@ import $ from 'jquery';
 import './navbar.scss';
 
 const displayHome = () => {
+  $(document).ready(() => {
+    $('#technologiesPage').hide();
+  });
   $('#navToHome').on('click', () => {
     $('#homePage').show();
     $('#bioPage').hide();

@@ -5,8 +5,8 @@ import navbar from './components/Navbar/navbar';
 import projects from './components/Projects/projects';
 
 const init = () => {
-  projects.displayAllProjects();
   navbar.attachNavbarEvents();
+  projects.displayAllProjects();
 };
 
 init();
