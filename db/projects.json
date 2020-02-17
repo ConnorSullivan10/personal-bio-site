@@ -1,5 +1,50 @@
 {
   "project1" : {
+    "title": "guitArchive (Front-End Capstone)",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive3.PNG",
+    "description": "Use this application to view the history of certain guitar models and brands along with examples from various production years. Google-authenticated users are able to login and used CRUD elements to modify details about their own guitars in the database, as well as receive custom tone tips catered to the guitar models of their choice.",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://guitarchive.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/guitarchive"
+  },
+  "project2" : {
+    "title": "React Hoarder",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/react-hoarder/master/screenshots/hoard1.PNG",
+    "description": "As a hoarder, use this application keep track of all of your stuff. Upon logging in, you'll be able to view the information cards about your collection of items, and have full capabilities to view, create, delete, and edit items from your hoarders den.",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://react-hoarder-1a901.firebaseapp.com/auth",
+    "githubUrl": "https://github.com/ConnorSullivan10/react-hoarder"
+  },
+  "project3" : {
+    "title": "Sports Roster",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sports-roster/master/screenshots/sportsRoster2.PNG",
+    "description": "Use this application to create a player roster for your ultimate Titans team. All you have to do is login using your Google account, and you'll be able to add, edit, and delete Players from your Titans roster by simply adding the player name and image URL for each player.",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://sports-roster.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/sports-roster"
+  },
+  "project4" : {
+    "title": "Shark Attack",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/shark-attack/master/screenshots/sharkAttack%20screenshot.PNG",
+    "description": "Use this application to randomly make shark bait out of the Devs in cohort E10 of Nashville Software School. Simply click the SHARK ATTACK button to see who's shark bait next!",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://shark-attack-ca1d1.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/shark-attack"
+  },
+  "project5" : {
+    "title": "Doggie Day Care",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/doggie-day-care/master/screenshots/doggie2.PNG",
+    "description": "Use this application to log in as an employee of Scrappy's Walking Crew. Upon logging in, you'll be able to view the information about the dogs and employees at the day care, as well as create, read, update, and delete Dog Walk Appointments at your leisure.",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://doggie-day-care-ce016.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/doggie-day-care"
+  },
+  "project6" : {
     "title": "Star Destroyer Group Project (Sectors Page & Styling)",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-star-destroyer/master/src/screenshots/sectorsScreenshot.PNG",
     "description": "Use this application to view the Star Destroyer Database and its contents. When logged in as a member of the Galactic Empire, via Google Authentication, you can modify the Star Destroyer's database contents using CRUD components on each page.",
@@ -8,7 +53,7 @@
     "url": "https://nutshell-star-destroyer.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-star-destroyer"
   },
-  "project2" : {
+  "project7" : {
     "title": "Pinterest",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pinterest/master/screenshots/pickterest2.PNG",
     "description": "This application mimics a Pinterest-like application that is oriented around guitar/musical gear. Users are able to create, delete, and edit pins and boards of their favorite ideas for musical gear to get. It incorporates Google Authentication via Firebase to allow users to login store/modify data from firebase using CRUD elements,linked to their pins/boards and data connected with their authenticated Google login account.",
@@ -17,7 +62,7 @@
     "url": "https://pinterest-18ecc.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
   },
-  "project3" : {
+  "project8" : {
     "title": "Solar System",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/solar-system/master/screenshots/solarSystemHoverScreenshot.PNG",
     "description": "Use this application to search for and print educational cards detailing each of the planets in our Solar System.",
@@ -26,7 +71,7 @@
     "url": "https://solar-system-63bf6.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/solar-system"
   },
-  "project4" : {
+  "project9" : {
     "title": "Pixel Art",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pixelart/master/screenshots/pixelArt1.PNG",
     "description": "Use this application for fun to fill each square in the grid with the color of your choice. All you have to do is select the radio button for the color of your choice, and then click on the corresponding square that you'd like to change the color of.",
@@ -35,7 +80,7 @@
     "url": "https://pixel-art-859eb.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/pixelart"
   },
-  "project5" : {
+  "project10" : {
     "title": "Sandwich Maker",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichPreview1.PNG",
     "description": "Use this application to select sandwich ingredients and get a final cost for a super-awesome custom sandwich creation. Simply click the checkboxes for the ingredients that you'd like in your custom sandwich, and once you're finished selecting options, click the 'Build Your Custom Sandwich' button to see your total for your custom sandwich creation!",
