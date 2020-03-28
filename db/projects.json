@@ -18,33 +18,6 @@
     "githubUrl": "https://github.com/ConnorSullivan10/react-hoarder"
   },
   "project3" : {
-    "title": "Sports Roster",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sports-roster/master/screenshots/sportsRoster2.PNG",
-    "description": "Use this application to create a player roster for your ultimate Titans team. All you have to do is login using your Google account, and you'll be able to add, edit, and delete Players from your Titans roster by simply adding the player name and image URL for each player.",
-    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
-    "available": true,
-    "url": "https://sports-roster.firebaseapp.com/",
-    "githubUrl": "https://github.com/ConnorSullivan10/sports-roster"
-  },
-  "project4" : {
-    "title": "Shark Attack",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/shark-attack/master/screenshots/sharkAttack%20screenshot.PNG",
-    "description": "Use this application to randomly make shark bait out of the Devs in cohort E10 of Nashville Software School. Simply click the SHARK ATTACK button to see who's shark bait next!",
-    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
-    "available": true,
-    "url": "https://shark-attack-ca1d1.firebaseapp.com/",
-    "githubUrl": "https://github.com/ConnorSullivan10/shark-attack"
-  },
-  "project5" : {
-    "title": "Doggie Day Care",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/doggie-day-care/master/screenshots/doggie2.PNG",
-    "description": "Use this application to log in as an employee of Scrappy's Walking Crew. Upon logging in, you'll be able to view the information about the dogs and employees at the day care, as well as create, read, update, and delete Dog Walk Appointments at your leisure.",
-    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
-    "available": true,
-    "url": "https://doggie-day-care-ce016.firebaseapp.com/",
-    "githubUrl": "https://github.com/ConnorSullivan10/doggie-day-care"
-  },
-  "project6" : {
     "title": "Star Destroyer Group Project (Sectors Page & Styling)",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-star-destroyer/master/src/screenshots/sectorsScreenshot.PNG",
     "description": "Use this application to view the Star Destroyer Database and its contents. When logged in as a member of the Galactic Empire, via Google Authentication, you can modify the Star Destroyer's database contents using CRUD components on each page.",
@@ -53,16 +26,34 @@
     "url": "https://nutshell-star-destroyer.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-star-destroyer"
   },
-  "project7" : {
-    "title": "Pinterest",
-    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pinterest/master/screenshots/pickterest2.PNG",
-    "description": "This application mimics a Pinterest-like application that is oriented around guitar/musical gear. Users are able to create, delete, and edit pins and boards of their favorite ideas for musical gear to get. It incorporates Google Authentication via Firebase to allow users to login store/modify data from firebase using CRUD elements,linked to their pins/boards and data connected with their authenticated Google login account.",
-    "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
+  "project4" : {
+    "title": "Sports Roster",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/sports-roster/master/screenshots/sportsRoster2.PNG",
+    "description": "Use this application to create a player roster for your ultimate Titans team. All you have to do is login using your Google account, and you'll be able to add, edit, and delete Players from your Titans roster by simply adding the player name and image URL for each player.",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
     "available": true,
-    "url": "https://pinterest-18ecc.firebaseapp.com/",
-    "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
+    "url": "https://sports-roster.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/sports-roster"
   },
-  "project8" : {
+  "project5" : {
+    "title": "Shark Attack",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/shark-attack/master/screenshots/sharkAttack%20screenshot.PNG",
+    "description": "Use this application to randomly make shark bait out of the Devs in cohort E10 of Nashville Software School. Simply click the SHARK ATTACK button to see who's shark bait next!",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://shark-attack-ca1d1.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/shark-attack"
+  },
+  "project6" : {
+    "title": "Doggie Day Care",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/doggie-day-care/master/screenshots/doggie2.PNG",
+    "description": "Use this application to log in as an employee of Scrappy's Walking Crew. Upon logging in, you'll be able to view the information about the dogs and employees at the day care, as well as create, read, update, and delete Dog Walk Appointments at your leisure.",
+    "technologiesUsed": " HTML5, SCSS, JavaScript, Bootstrap, React",
+    "available": true,
+    "url": "https://doggie-day-care-ce016.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/doggie-day-care"
+  },
+  "project7" : {
     "title": "Solar System",
     "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/solar-system/master/screenshots/solarSystemHoverScreenshot.PNG",
     "description": "Use this application to search for and print educational cards detailing each of the planets in our Solar System.",
@@ -70,6 +61,15 @@
     "available": true,
     "url": "https://solar-system-63bf6.firebaseapp.com/",
     "githubUrl": "https://github.com/ConnorSullivan10/solar-system"
+  },
+  "project8" : {
+    "title": "Pinterest",
+    "screenshot": "https://raw.githubusercontent.com/ConnorSullivan10/pinterest/master/screenshots/pickterest2.PNG",
+    "description": "This application mimics a Pinterest-like application that is oriented around guitar/musical gear. Users are able to create, delete, and edit pins and boards of their favorite ideas for musical gear to get. It incorporates Google Authentication via Firebase to allow users to login store/modify data from firebase using CRUD elements,linked to their pins/boards and data connected with their authenticated Google login account.",
+    "technologiesUsed": " HTML5, CSS, JavaScript, SASS, jQuery & Webpack",
+    "available": true,
+    "url": "https://pinterest-18ecc.firebaseapp.com/",
+    "githubUrl": "https://github.com/ConnorSullivan10/pinterest"
   },
   "project9" : {
     "title": "Pixel Art",
